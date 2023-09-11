@@ -1,0 +1,27 @@
+<suite name="AppiumTestSuite">
+    <test name="Test1">
+        <classes>
+            <class name="tests.BaseClass"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="tests.MakePayment"/>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="tests.MortgageRequest"/>
+        </classes>
+    </test>
+    <test name="Test4">
+        <classes>
+            <class name="tests.ExpenseReport"/>
+        </classes>
+    </test>
+    <test name="Test5">
+        <classes>
+            <class name="tests.LogoutApp"/>
+        </classes>
+    </test>
+</suite>
